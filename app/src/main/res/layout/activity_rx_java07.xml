@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_teach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="给初学者的RxJava2.0教程(七)" />
+
+
+    <Button
+        android:id="@+id/rxJava01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="long requested();" />
+
+    <Button
+        android:id="@+id/rxJava02"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="区别于 rxJava_test_01的是选择背压的方式" />
+
+    <Button
+        android:id="@+id/rxJava03"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="异步线程requested的数量为128" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rxJava05"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="发送128个事件后消费掉后继续发送-start" />
+
+        <Button
+            android:id="@+id/rxJava_drop_end"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="end" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/rxJava06"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="实践读取一个文本文件一行一行读取并输出" />
+
+
+    <TextView
+        android:id="@+id/tv_file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="sdfdsfsdf" />
+
+</LinearLayout>

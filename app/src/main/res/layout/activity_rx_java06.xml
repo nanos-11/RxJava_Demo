@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_teach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="给初学者的RxJava2.0教程(六)" />
+
+
+    <Button
+        android:id="@+id/rxJava01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Flowable 操作符" />
+
+    <Button
+        android:id="@+id/rxJava02"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Subscription保存起来, 在界面上增加了一个按钮, 点击一次就调用Subscription.request(1)" />
+
+    <Button
+        android:id="@+id/rxJava03"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="调用Subscription.request(1)" />
+
+
+    <Button
+        android:id="@+id/rxJava04"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="BackpressureStrategy.BUFFER" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rxJava05"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="BackpressureStrategy.DROP-START" />
+
+        <Button
+            android:id="@+id/rxJava_drop_end"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="end" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rxJava06"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="BackpressureStrategy.LATEST" />
+
+        <Button
+            android:id="@+id/rxJava_latest_end"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="end" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/rxJava07"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="interval操作符" />
+
+    <Button
+        android:id="@+id/rxJava08"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="给初学者的RxJava2.0教程(七)" />
+
+</LinearLayout>
